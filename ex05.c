@@ -34,5 +34,5 @@ int main (void)
 {
 	char src[] = "test";
     	char dest [] = "1337";
-    printf("%i \n", ft_strlcat(dest, src,10));
+    printf("%d \n", ft_strlcat(dest, src,10));
     printf("%s \n", dest);
